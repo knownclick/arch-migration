@@ -250,6 +250,11 @@ if $include_wallpapers; then
 fi
 copy_system_manifest "$PROJECT_ROOT/manifests/system-safe.txt" "$payload"
 
+# The staging tree is created under umask 077, but these directories are
+# restored below /etc and must remain traversable by normal system services.
+# File modes still come from the source files themselves.
+find "$payload/etc" -type d -exec chmod 755 {} +
+
 log "Recording a fresh package and service inventory"
 metadata_user="${USER//$'\t'/ }"
 metadata_user="${metadata_user//$'\n'/ }"

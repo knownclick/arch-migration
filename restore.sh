@@ -227,6 +227,7 @@ if ! $skip_system; then
     if [[ -d "$payload/etc" ]]; then
         system_rsync_args=(-a \
             --chown=root:root \
+            --chmod=D755 \
             --backup \
             --backup-dir="$system_backup")
         $skip_greetd && system_rsync_args+=(--exclude=/greetd/)

@@ -124,6 +124,8 @@ if $restore_private && ! $skip_config && [[ ! -f "$PROJECT_ROOT/private.tar.zst.
     die "private restore was selected, but this bundle has no encrypted private archive"
 fi
 
+[[ -x /etc && -r /etc/passwd ]] || \
+    die "/etc permissions block normal user lookups; restore /etc to mode 755 before installing"
 is_arch_linux || die "this installer supports Arch Linux only"
 ((EUID != 0)) || die "run this as the target desktop user, not root"
 command -v sudo >/dev/null 2>&1 || die "sudo is required"

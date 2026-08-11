@@ -68,6 +68,12 @@ ok() { printf 'ok: %s\n' "$*"; }
 bad() { printf 'FAIL: %s\n' "$*" >&2; ((failures += 1)); }
 notice() { printf 'warning: %s\n' "$*" >&2; ((warnings += 1)); }
 
+if [[ -r /etc/passwd && -x /etc ]]; then
+    ok "/etc is readable and traversable"
+else
+    bad "/etc permissions prevent normal user and service lookups"
+fi
+
 if is_arch_linux; then
     ok "Arch Linux detected"
 else
