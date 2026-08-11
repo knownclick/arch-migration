@@ -3,3 +3,4 @@
 /selection.conf
 /*.tar.zst
 /*.sha256
+/install/*.tar.zst

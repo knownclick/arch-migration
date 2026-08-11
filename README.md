@@ -12,6 +12,26 @@ the bootloader, `fstab`, hostname, users, or initramfs configuration.
 
 ## Guided migration
 
+### Internet-only restore for this personal setup
+
+This repository also carries a password-encrypted copy of the portable
+configuration payload. On the new Arch machine, it can be downloaded and
+opened without the USB archive:
+
+```bash
+sudo pacman -Syu --needed git
+git clone https://github.com/knownclick/arch-migration.git
+cd arch-migration
+./install/deploy.sh
+```
+
+The deployment helper checks the encrypted bundle, asks for its password
+without displaying or saving it, and then launches the same application picker
+described below. The password is not stored in this public repository. See
+[`install/README.md`](install/README.md) for details.
+
+### Creating a new transfer archive
+
 On the old machine, run:
 
 ```bash
