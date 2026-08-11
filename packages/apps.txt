@@ -1,0 +1,17 @@
+# Curated recommended applications. The guided setup can toggle each one.
+7zip
+chromium
+firefox
+freerdp
+ghostscript
+github-cli
+libreoffice-fresh
+lite-xl
+mpv
+obsidian
+qbittorrent
+remmina
+sublime-text
+thunderbird
+uv
+yt-dlp

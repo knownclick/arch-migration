@@ -1,0 +1,3 @@
+# Recommended AUR packages. rustdesk-bin avoids a long local Rust build.
+cloudflare-warp-bin
+rustdesk-bin

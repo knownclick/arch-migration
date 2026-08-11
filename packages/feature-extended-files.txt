@@ -1,0 +1,5 @@
+# Phone, camera, MTP and SMB support for Thunar/GVfs.
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-smb

@@ -1,0 +1,4 @@
+# Bluetooth controls used by the Quickshell panel.
+blueman
+bluez
+bluez-utils

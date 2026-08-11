@@ -1,0 +1,2 @@
+# Host firewall using the source machine's UFW policy.
+ufw

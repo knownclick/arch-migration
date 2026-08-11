@@ -1,0 +1,2 @@
+# Custom ReGreet login screen. Omitted when keeping another display manager.
+greetd-regreet

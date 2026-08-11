@@ -1,0 +1,2 @@
+# Needed for the current rotating-wallpaper desktop. Use --no-wallpapers to skip.
+Wallpapers

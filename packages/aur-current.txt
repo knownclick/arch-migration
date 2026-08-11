@@ -1,0 +1,3 @@
+# Functional equivalents of the two foreign packages installed on this machine.
+cloudflare-warp-bin
+rustdesk-bin

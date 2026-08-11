@@ -1,0 +1,16 @@
+# Post-install foundation. The fresh system must already boot and have sudo.
+base
+base-devel
+curl
+git
+gnupg
+linux
+linux-firmware
+linux-headers
+networkmanager
+pacman-contrib
+pciutils
+rsync
+sudo
+wpa_supplicant
+zstd

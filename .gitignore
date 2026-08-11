@@ -1,0 +1,5 @@
+/payload/
+/private.tar.zst.gpg
+/selection.conf
+/*.tar.zst
+/*.sha256

@@ -1,0 +1,33 @@
+# Copied only with export.sh --include-private, and encrypted with GnuPG.
+# Close the corresponding applications before export and restore.
+.aws
+.claude/.credentials.json
+.claude/CLAUDE.md
+.claude/plugins
+.claude/settings.json
+.claude.json
+.codex/auth.json
+.codex/config.toml
+.codex/plugins
+.codex/rules
+.codex/skills
+.config/chromium
+.config/rclone
+.config/gh
+.config/mozilla
+.config/obsidian
+.config/pulse/cookie
+.config/qBittorrent
+.config/remmina
+.config/rustdesk
+.docker
+.git-credentials
+.gnupg
+.kube
+.local/share/qBittorrent
+.local/share/keyrings
+.local/share/remmina
+.pki
+.ssh
+.thunderbird
+ENV-files

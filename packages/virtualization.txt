@@ -1,0 +1,9 @@
+# Large optional development/virtualization stack.
+dnsmasq
+docker
+docker-compose
+edk2-ovmf
+libvirt
+qemu-desktop
+swtpm
+virt-manager

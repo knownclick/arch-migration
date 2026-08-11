@@ -1,0 +1,6 @@
+# Applications added by the full preset beyond the recommended app manifest.
+catfish
+rclone
+vlc
+vlc-plugin-ffmpeg
+vlc-plugin-freetype

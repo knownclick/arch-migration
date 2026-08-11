@@ -1,0 +1,25 @@
+# id|label|source|default presets|packages or group id|description
+firefox|Firefox|repo|desktop,recommended,full|firefox|Primary browser and current web default
+chromium|Chromium|repo|recommended,full|chromium|Second browser shown by the Quickshell chooser
+obsidian|Obsidian|repo|recommended,full|obsidian|Notes application bound to Super+O
+libreoffice|LibreOffice|repo|recommended,full|libreoffice-fresh,ghostscript|Office suite plus PDF/PostScript support
+thunderbird|Thunderbird|repo|recommended,full|thunderbird|Mail and calendar client
+mpv|MPV + yt-dlp|repo|desktop,recommended,full|mpv,yt-dlp|Current default video player and downloader
+vlc|VLC|repo|full|vlc,vlc-plugin-ffmpeg,vlc-plugin-freetype|Alternative media player
+qbittorrent|qBittorrent|repo|recommended,full|qbittorrent|Torrent client
+lite_xl|Lite XL|repo|recommended,full|lite-xl|Lightweight code editor
+sublime_text|Sublime Text|repo|recommended,full|sublime-text|Editor from Sublime's signed vendor repository
+remmina|Remmina + FreeRDP|repo|recommended,full|remmina,freerdp|Remote desktop client
+github_cli|GitHub CLI|repo|recommended,full|github-cli|Required by the restored GitHub credential helper
+uv|uv Python tool manager|repo|recommended,full|uv|Fast Python project and tool manager
+archive_tools|7-Zip|repo|desktop,recommended,full|7zip|Additional archive format support
+catfish|Catfish|repo|full|catfish|Graphical file search
+rclone|rclone|repo|full|rclone|Cloud-storage command-line sync
+rustdesk|RustDesk|aur|recommended,full|rustdesk-bin|Remote support client from the AUR
+cloudflare_warp|Cloudflare WARP|aur|recommended,full|cloudflare-warp-bin|VPN controls integrated into Quickshell
+bluetooth|Bluetooth support|group|desktop,recommended,full|bluetooth|Panel controls, pairing and audio-device discovery
+printing|Printing support|group|recommended,full|printing|CUPS and graphical printer configuration
+extended_files|Phones, cameras and SMB|group|recommended,full|extended_files|Extra Thunar/GVfs device and network mounts
+firewall|UFW firewall|group|desktop,recommended,full|firewall|Restore host-firewall policy (automatically skipped over SSH)
+virtualization|Docker and virtual machines|group|full|virtualization|Docker, QEMU, libvirt and virt-manager
+legacy|Legacy desktop utilities|group|full|legacy|Waybar, Wofi, Fuzzel, Hyprpaper and old extras

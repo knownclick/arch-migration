@@ -1,0 +1,5 @@
+# Small useful application set used by the desktop preset/direct profile.
+7zip
+firefox
+mpv
+yt-dlp

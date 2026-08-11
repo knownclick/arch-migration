@@ -1,0 +1,14 @@
+# Leading slash is intentional. Bootloader/initramfs/GPU files are excluded.
+/etc/greetd/config.toml
+/etc/greetd/oled-mountains.jpg
+/etc/greetd/regreet.css
+/etc/greetd/regreet.toml
+/etc/default/ufw
+/etc/keyd/default.conf
+/etc/locale.conf
+/etc/localtime
+/etc/systemd/zram-generator.conf
+/etc/ufw/ufw.conf
+/etc/ufw/user.rules
+/etc/ufw/user6.rules
+/etc/vconsole.conf

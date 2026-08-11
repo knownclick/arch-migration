@@ -1,0 +1,16 @@
+# Installed now, but not required by the active Quickshell-based session.
+fuzzel
+gnome-themes-extra
+hyprpaper
+libde265
+libgsf
+libpulse
+libva-utils
+poppler-glib
+speech-dispatcher
+swaylock
+vdpauinfo
+waybar
+webp-pixbuf-loader
+wofi
+xdg-desktop-portal-gnome

@@ -1,0 +1,5 @@
+# Found on the old hybrid AMD/NVIDIA laptop and deliberately not restored.
+amd-ucode
+egl-wayland
+nvidia-open-dkms
+nvidia-utils
