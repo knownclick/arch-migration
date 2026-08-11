@@ -15,14 +15,13 @@ the bootloader, `fstab`, hostname, users, or initramfs configuration.
 On the old machine, run:
 
 ```bash
-git clone git@github.com:knownclick/arch-migration.git
+git clone https://github.com/knownclick/arch-migration.git
 cd arch-migration
 ./setup.sh --output /run/media/$USER/MY_USB/arch-migration.tar.zst
 ```
 
-For a private repository, the old machine needs your GitHub SSH key or an
-authenticated `gh repo clone knownclick/arch-migration`. The exported transfer
-archive embeds this toolkit, so the new machine does not need GitHub access.
+The public HTTPS clone requires no GitHub account. The exported transfer archive
+also embeds this toolkit, so the new machine does not need to clone it again.
 
 The menu starts with a Desktop, Recommended, or Full preset. Toggle any item by
 entering its number; multiple numbers may be separated by spaces or commas.
