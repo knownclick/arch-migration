@@ -212,7 +212,7 @@ declare -A gpu_vendors=()
 detect_gpu_vendors gpu_vendors
 
 if [[ -n "${gpu_vendors[0x1002]:-}" ]]; then
-    requested_packages+=(mesa vulkan-radeon libva-mesa-driver)
+    requested_packages+=(mesa vulkan-radeon)
 fi
 if [[ -n "${gpu_vendors[0x8086]:-}" ]]; then
     requested_packages+=(mesa vulkan-intel intel-media-driver)
@@ -350,7 +350,7 @@ case "$cpu_vendor" in
     AuthenticAMD) essential_packages+=(amd-ucode) ;;
     GenuineIntel) essential_packages+=(intel-ucode) ;;
 esac
-[[ -n "${gpu_vendors[0x1002]:-}" ]] && essential_packages+=(mesa vulkan-radeon libva-mesa-driver)
+[[ -n "${gpu_vendors[0x1002]:-}" ]] && essential_packages+=(mesa vulkan-radeon)
 [[ -n "${gpu_vendors[0x8086]:-}" ]] && essential_packages+=(mesa vulkan-intel intel-media-driver)
 mapfile -t essential_packages < <(printf '%s\n' "${essential_packages[@]}" | sort -u)
 for package in "${missing[@]}"; do

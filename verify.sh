@@ -148,7 +148,7 @@ case "$cpu_vendor" in
 esac
 declare -A gpu_vendors=()
 detect_gpu_vendors gpu_vendors
-[[ -n "${gpu_vendors[0x1002]:-}" ]] && expected+=(mesa vulkan-radeon libva-mesa-driver)
+[[ -n "${gpu_vendors[0x1002]:-}" ]] && expected+=(mesa vulkan-radeon)
 [[ -n "${gpu_vendors[0x8086]:-}" ]] && expected+=(mesa vulkan-intel intel-media-driver)
 mapfile -t expected < <(printf '%s\n' "${expected[@]}" | sort -u)
 
